@@ -1,0 +1,157 @@
+/*
+
+	File Name: Responsive.css
+	Template Name: Portam - Minimal Portfolio Template
+	Created By: Mixturethemes
+	http://themeforest.net/user/mixturethemes
+	
+*/
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+
+	
+
+}
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	button#trigger-overlay {
+		margin-top:11%;
+	}
+	
+	.footer_content {
+		text-align:center;
+	}
+	
+	.footer-logo {
+		display:none;
+	}
+	
+	.footer_content .footer_social ul {
+		float:none;
+	}
+	
+	.skills .one,
+	.skills .two {
+		margin-bottom:60px;
+	}
+	
+	.comment-box .line-comment {
+		margin-left:11%;
+	}
+	
+	.contact_form {
+		margin-bottom:60px;
+	}
+
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.navbar-brand {
+		width:auto;
+		height:50%;
+		top:0;
+	}
+	
+	button#trigger-overlay {
+		margin-top:15%;
+	}
+	
+	.overlay ul li.drop ul.dropdown {
+		left:0%;
+	}
+	
+	.footer_content {
+		text-align:center;
+	}
+	
+	.footer_content .copyright p {
+		line-height:1.8;
+	}
+	
+	.footer-logo {
+		display:none;
+	}
+	
+	.footer_content .footer_social ul {
+		float:none;
+	}
+	
+	.about_details p {
+		padding:0 15px;
+	}
+	
+	.skills .one,
+	.skills .two {
+		margin-bottom:60px;
+	}
+	
+	.comment-box .line-comment {
+		margin-left:14%;
+	}
+	
+	.contact_form {
+		margin-bottom:60px;
+	}
+
+}
+
+/* small mobile :320px. */
+@media only screen and (max-width: 479px) {
+
+	.navbar-brand {
+		width:auto;
+		height:50%;
+		top:0;
+	}
+	
+	button#trigger-overlay {
+		margin-top:15%;
+	}
+	
+	.overlay ul li.drop ul.dropdown {
+		left:0%;
+	}
+	
+	.grid-filter {
+		padding-left:15px;
+	}
+	
+	.footer_content {
+		text-align:center;
+	}
+	
+	.footer_content .copyright p {
+		line-height:1.8;
+	}
+	
+	.footer-logo {
+		display:none;
+	}
+	
+	.footer_content .footer_social ul {
+		float:none;
+	}
+	
+	.about_details p {
+		padding:0 15px;
+	}
+	
+	.skills .one,
+	.skills .two {
+		margin-bottom:60px;
+	}
+	
+	.comment-box .line-comment {
+		margin-left:22%;
+	}
+	
+	.contact_form {
+		margin-bottom:60px;
+	}
+	
+
+}
