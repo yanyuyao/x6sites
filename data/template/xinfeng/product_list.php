@@ -20,7 +20,7 @@
 					<ul id="fam-filter">
 						<li data-filter="*"> <span>All</span></li>
 						<?php
-						$tmpData = x6cms_thiscategory($category);//var_dump($tmpData);		?>
+						$tmpData = x6cms_categoryByDir($category);//var_dump($tmpData);		?>
 						<?php foreach ($tmpData as $item): ?>
 							<li data-filter=".project-<?=$item['id']?>" class="<?php if($item['id']==$category['id']){ echo 'selected';}?>"><?=$item['name']?></li>
 						<?php endforeach; ?>
