@@ -16,7 +16,7 @@
 			<a href="/index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a> 按应用用途划分
 		</div>
 		<div class="family-banner">
-			<img src="img/family-banner1.png">
+			<img src="<?=$category['thumb']?>">
 		</div>
 	</div>
 <!--banner end-->

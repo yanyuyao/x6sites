@@ -41,10 +41,10 @@
 										<a href="<?=base_url($langurl);?>" class="menu-link <?php if($category['dir'] == ''){?>set_active<?php } ?>">首页</a>
 									</li>
 									<li class="menu-item has-dropdown">
-										<a href="/index.php?/category/aboutus" class="menu-link <?php if($category['dir'] == 'aboutus'){?>set_active<?php } ?>">关于元瑞</a>
+										<a href="/index.php?/category/product" class="menu-link <?php if($category['dir'] == 'product'){?>set_active<?php } ?>">元瑞家族</a>
 									</li>
 									<li class="menu-item has-dropdown">
-										<a href="/index.php?/category/product" class="menu-link <?php if($category['dir'] == 'product'){?>set_active<?php } ?>">元瑞家族</a>
+										<a href="/index.php?/category/diyufengwei" class="menu-link <?php if($category['dir'] == 'diyufengwei' || $category['dir'] == 'yingyongfenlei'){?>set_active<?php } ?>">美食厨房</a>
 									</li>
 									<li class="menu-item li_lg">
 										<a href="/index.php" class="lg_block" title="Kinder">
@@ -52,10 +52,10 @@
 										</a>
 									</li>
 									<li class="menu-item has-dropdown">
-										<a href="/index.php?/category/diyufengwei" class="menu-link <?php if($category['dir'] == 'diyufengwei' || $category['dir'] == 'yingyongfenlei'){?>set_active<?php } ?>">美食厨房</a>
+										<a href="/index.php?/category/news" class="menu-link <?php if($category['dir'] == 'news'){?>set_active<?php } ?>">企业动态</a>
 									</li>
 									<li class="menu-item has-dropdown">
-										<a href="/index.php?/category/news" class="menu-link <?php if($category['dir'] == 'news'){?>set_active<?php } ?>">企业动态</a>
+										<a href="/index.php?/category/aboutus" class="menu-link <?php if($category['dir'] == 'aboutus'){?>set_active<?php } ?>">加入元瑞</a>
 									</li>
 									<li class="menu-item">
 										<a href="/index.php?/category/support" class="menu-link <?php if($category['dir'] == 'support'){?>set_active<?php } ?>">联系我们</a>
