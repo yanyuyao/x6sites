@@ -50,27 +50,37 @@
 	<script>
     var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
-        paginationClickable: true
+        paginationClickable: true,
+		autoplay:5000,
+		speed:1000
     });
     </script>
 	<script>
 		$(".index-kitchen-footicon-single").css("height",$(".index-kitchen-footicon-single").width());  //index-kitchen-footicon  height
-		$(".index-family-single").css("height",$(".index-family-single").width()*2);    //index-family-singlr   height
+		$(".index-family-single").css({"height":$(".index-family-single").width()*2,"max-height":"750px"});    //index-family-single   height
+		$(".index-family-listk").css("height",$(".index-family-single").height());
 		$(window).resize(function() {
 			$(".index-kitchen-footicon-single").css("height",$(".index-kitchen-footicon-single").width());   //index-kitchen-footicon  height
-			$(".index-family-single").css("height",$(".index-family-single").width()*2);      //index-family-singlr   height
+			$(".index-family-single").css({"height":$(".index-family-single").width()*2,"max-height":"750px"});      //index-family-single   height
+			$(".index-family-listk").css("height",$(".index-family-single").height());
 		})
-		
-		$(".index-family-single").mouseover(function(){
-			$(this).css("width","52%");
-			$(this).siblings(".index-family-single").css("width","12%");
+		//元瑞家族
+		$(".index-family-single").mouseenter(function(){
+			$(".index-family-single").stop();
+			$(this).siblings(".index-family-single").animate({"width":"15%"},400);
+			$(this).animate({"width":"40%"},400);
 		})
-		$(".index-family-listk").mouseout(function(){
+		$(".index-family-single").mouseleave(function(){
 			$(".index-family-single").css("width","22%");
 			$(".index-family-single3").css("width","12%");
 		})
 		
-		//  
+		//元瑞事业
+		var careervideo = ["<?=$config['site_templateurl'];?>/img/index-career.png","<?=$config['site_templateurl'];?>/img/index-kitchen.png","<?=$config['site_templateurl'];?>/img/index-career.png","<?=$config['site_templateurl'];?>/img/index-kitchen.png","<?=$config['site_templateurl'];?>/img/index-career.png"];
+		$(".index-kitchen-footicon-single").mouseover(function(){
+			var i = $(this).index();
+			$(".index-career-img").attr({"src":careervideo[i-1]});
+		})
 		
 	</script>
 </body>

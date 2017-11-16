@@ -11,7 +11,7 @@
 								<li><a href="/index.php?/category/news">企业动态</a></li>
 								<li><a href="/index.php?/category/news">企业里程碑</a></li>
 								<li><a href="/index.php?/category/aboutus">销售网络</a></li>
-								<li><a href="/index.php?/category/support">加入元瑞</a></li>
+								<li><a href="/index.php?/category/aboutus">加入元瑞</a></li>
 							</ul>
 						</div>
 					</div>

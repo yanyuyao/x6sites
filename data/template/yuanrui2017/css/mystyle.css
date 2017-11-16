@@ -36,6 +36,9 @@ body{
 .index-family img{
 	width:20%;
 }
+.index-family-listk{
+	overflow:hidden;
+}
 .index-family-single{
 	width:22%;
 	float:left;
@@ -46,6 +49,10 @@ body{
 	text-align:center;
 	line-height:1.2em;
 	position:relative;
+}
+.index-family-single-k{
+	width:100%;
+	height:100%;
 }
 .index-family-single img{
 	margin:0;
