@@ -37,13 +37,13 @@
 							</div>
 							<div class="nav-container">
 								<ul class="nav-menu menu">
-									<li class="menu-item has-dropdown">
+									<li class="menu-item">
 										<a href="<?=base_url($langurl);?>" class="menu-link <?php if($category['dir'] == ''){?>set_active<?php } ?>">首页</a>
 									</li>
-									<li class="menu-item has-dropdown">
+									<li class="menu-item">
 										<a href="/index.php?/category/product" class="menu-link <?php if($category['dir'] == 'product'){?>set_active<?php } ?>">元瑞家族</a>
 									</li>
-									<li class="menu-item has-dropdown">
+									<li class="menu-item">
 										<a href="/index.php?/category/diyufengwei" class="menu-link <?php if($category['dir'] == 'diyufengwei' || $category['dir'] == 'yingyongfenlei'){?>set_active<?php } ?>">美食厨房</a>
 									</li>
 									<li class="menu-item li_lg">
@@ -51,10 +51,10 @@
 											<img src="<?=$config['site_templateurl'];?>/img/logo.png" alt="Logo Image">
 										</a>
 									</li>
-									<li class="menu-item has-dropdown">
+									<li class="menu-item">
 										<a href="/index.php?/category/news" class="menu-link <?php if($category['dir'] == 'news'){?>set_active<?php } ?>">企业动态</a>
 									</li>
-									<li class="menu-item has-dropdown">
+									<li class="menu-item">
 										<a href="/index.php?/category/aboutus" class="menu-link <?php if($category['dir'] == 'aboutus'){?>set_active<?php } ?>">加入元瑞</a>
 									</li>
 									<li class="menu-item">
