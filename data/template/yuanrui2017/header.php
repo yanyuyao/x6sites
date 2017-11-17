@@ -28,7 +28,7 @@
 				<div class="row" style="margin:0;">
 					<div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="width:100%;">
 						<a href="index.html" class="lg lg_none" title="Kinder">
-							<img src="img/logo.png" alt="Logo Image">
+							<img src="<?=$config['site_templateurl'];?>/img/logo.png" alt="Logo Image">
 						</a>
 						<!-- menu -->
 						<nav class="nav is-fixed">

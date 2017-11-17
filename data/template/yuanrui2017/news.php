@@ -36,30 +36,11 @@
 				<div class="row">
 						<?php foreach ($list as $k=>$item): ?>
 								<?php if($k == 0){ echo "<div class='row'>";}?>
-								<?php if($k<2){?>
-								<div class="col-md-6 col-lg-6 news-list-single">
-									<a href="<?=$item['url']?>">
-									<div class="news-list">
-										<div class="news-list-top">
-											<img src="<?=$item['thumb']?>"><br>
-										</div>
-										<div class="news-list-bottom">
-											<div class="news-list-date"><?=$item['keyword']?></div>
-											<div class="news-list-bottom-bt">
-												<?=$item['title']?>
-											</div>
-											<?=$item['description']?>
-										</div>
-									</div>
-									</a>
-								</div>
-								<?php if($k == 1){ echo "</div>";}?>
-								<?php }else{ ?>
 								<div class="col-md-3 col-lg-3 news-list-single">
 									<a href="<?=$item['url']?>">
 									<div class="news-list">
 										<div class="news-list-top">
-											<img src="<?=$item['thumb']?>"><br>
+											<img src="<?=$item['thumb']?>" class="news-list-top-img"><br>
 										</div>
 										<div class="news-list-bottom">
 											<div class="news-list-date"><?=$item['keyword']?></div>
@@ -71,10 +52,7 @@
 									</div>
 									</a>
 								</div>
-								
-								<?php } ?>
 						<?php endforeach; ?>
-					
 					
 					
 				</div>
@@ -92,3 +70,9 @@
 <?php $this->load->view($config['site_template'].'/footer');?>
 </div>
 <?php $this->load->view($config['site_template'].'/foot');?>
+<script>
+	$(".news-listbt-search1").click(function(){
+		$(this).hide();
+		$(".news-listbt-search2").show();
+	})
+</script>

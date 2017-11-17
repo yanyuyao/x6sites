@@ -495,11 +495,11 @@ input.news-listbt-search-inputbutton{
 }
 .news-list-top{
 	width:100%;
-	padding:30px 0 100px;
-	background-color:#D1A26B;
+	padding:0 0 100px;
 }
 .news-list-top img{
 	width:100%;
+	border-bottom:5px solid #ee8100;
 }
 .news-list-bottom{
 	width:90%;
