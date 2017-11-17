@@ -9,10 +9,11 @@
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner2.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner3.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner4.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner5.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>
