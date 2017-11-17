@@ -43,10 +43,12 @@
 											<img src="<?=$item['thumb']?>" class="news-list-top-img"><br>
 										</div>
 										<div class="news-list-bottom">
-											<div class="news-list-date"><?=$item['keyword']?></div>
-											<div class="news-list-bottom-bt">
-												<?=$item['title']?>
-											</div>
+											<div class="news-list-date"><?=$item['keywords']?></div>
+											<a href="">
+												<div class="news-list-bottom-bt">
+													<?=$item['title']?>
+												</div>
+											</a>
 											<?=$item['description']?>
 										</div>
 									</div>

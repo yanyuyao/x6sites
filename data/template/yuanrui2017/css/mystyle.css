@@ -658,4 +658,10 @@ input.news-listbt-search-inputbutton{
 	input.news-listbt-search-inputtext{
 		width:175px;
 	}
+	.index-family-single-bt{
+		text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		
+	}
 }
