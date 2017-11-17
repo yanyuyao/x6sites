@@ -1,6 +1,6 @@
 <footer class="ht_footer flw">
 	<div class="footer_ flw">
-		<div class="container">
+		<div class="footerk">
 			<div class="footer_main flw">
 				<div class="row">
 					<div class="col-md-2 col-lg-2">
@@ -40,7 +40,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-4 col-lg-4">
+					<div class="col-md-3 col-lg-3">
 						<div class="ft_col">
 							<h3>联系我们</h3>
 							<ul class="uselink flw">
@@ -50,10 +50,14 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-2 col-lg-2">
-						<div class="ft_col">
-							<img src="<?=$config['site_templateurl'];?>/img/code1.png" style="margin-bottom:20px;">
-							<img src="<?=$config['site_templateurl'];?>/img/code2.png">
+					<div class="col-md-3 col-lg-3">
+						<div class="ft_col" style="margin-top:50px;">
+							<div class="col-md-6 col-lg-6" style="margin-top:20px;">
+								<img src="<?=$config['site_templateurl'];?>/img/code1.png">
+							</div>
+							<div class="col-md-6 col-lg-6" style="margin-top:20px;">
+								<img src="<?=$config['site_templateurl'];?>/img/code2.png">
+							</div>
 						</div>
 					</div>
 				</div>

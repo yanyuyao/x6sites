@@ -6057,7 +6057,7 @@ select {
 }
 .ht_footer .footer_ .footer_main .uselink li {
   height: 39px;
-  line-height: 33px;
+  list-style:none;
 }
 .ht_footer .footer_ .footer_main .uselink li a {
   font-family: Lato, sans-serif;
@@ -6069,7 +6069,7 @@ select {
   color: #fff;
 }
 .ht_footer .footer_ .footer_main .uselink li a:before {
-  content: "\f10b";
+  
   font-family: "ionicons";
   line-height: 1;
   color: #f26f29;
