@@ -17,7 +17,10 @@ body{
 .margin-bottom50{
 	margin-bottom:50px;
 }
-
+.footerk{
+	width:100%;
+	padding:0 10%;
+}
 
 
 
@@ -36,6 +39,9 @@ body{
 .index-family img{
 	width:20%;
 }
+.index-family-listk{
+	overflow:hidden;
+}
 .index-family-single{
 	width:22%;
 	float:left;
@@ -46,6 +52,10 @@ body{
 	text-align:center;
 	line-height:1.2em;
 	position:relative;
+}
+.index-family-single-k{
+	width:100%;
+	height:100%;
 }
 .index-family-single img{
 	margin:0;
@@ -92,12 +102,12 @@ body{
 .index-kitchen-bt{
 	position:absolute;
 	width:20%;
-	top:30px;
+	top:10%;
 	left:10%;
 }
 .index-kitchen-footicon{
 	position:absolute;
-	bottom:30px;
+	bottom:10%;
 	left:10%;
 	width:90%;
 }
@@ -143,7 +153,7 @@ body{
 }
 .index-join{
 	background-image:url(../img/index-join-bg.png);
-	background-size:1920px;
+	background-size:100%;
 	background-position:center;
 	background-repeat:no-repeat;
 }
@@ -488,11 +498,11 @@ input.news-listbt-search-inputbutton{
 }
 .news-list-top{
 	width:100%;
-	padding:30px 0 100px;
-	background-color:#D1A26B;
+	padding:0 0 100px;
 }
 .news-list-top img{
 	width:100%;
+	border-bottom:5px solid #ee8100;
 }
 .news-list-bottom{
 	width:90%;
@@ -650,5 +660,11 @@ input.news-listbt-search-inputbutton{
 	}
 	input.news-listbt-search-inputtext{
 		width:175px;
+	}
+	.index-family-single-bt{
+		text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
+		
 	}
 }

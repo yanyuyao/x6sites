@@ -64,6 +64,7 @@
   }
   img {
     max-width: 100% !important;
+	width:100%;
   }
   p,
   h2,
@@ -3916,6 +3917,7 @@ img {
   border: 0;
   height: auto;
   max-width: 100%;
+  width:100%;
   vertical-align: middle;
 }
 figure {
@@ -4016,7 +4018,7 @@ a:hover {
   display: inline-block;
   padding: 1.25rem 1rem;
   border: 0;
-  background-color: #e74c3c;
+  background-color: #ee8100;
   position: absolute;
   right: 0;
 }
@@ -6057,7 +6059,7 @@ select {
 }
 .ht_footer .footer_ .footer_main .uselink li {
   height: 39px;
-  line-height: 33px;
+  list-style:none;
 }
 .ht_footer .footer_ .footer_main .uselink li a {
   font-family: Lato, sans-serif;
@@ -6069,7 +6071,7 @@ select {
   color: #fff;
 }
 .ht_footer .footer_ .footer_main .uselink li a:before {
-  content: "\f10b";
+  
   font-family: "ionicons";
   line-height: 1;
   color: #f26f29;
