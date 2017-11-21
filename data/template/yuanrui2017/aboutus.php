@@ -8,11 +8,11 @@
 	<img src="<?=$config['site_templateurl'];?>/img/index-topborder.png" class="index-topborder">
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner2.jpg"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner3.jpg"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner4.jpg"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner5.jpg"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner1.png" alt="加入元瑞 山东省元瑞食品有限公司" title="加入元瑞 山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner2.jpg" alt="加入元瑞 山东省元瑞食品有限公司" title="加入元瑞 山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner3.jpg" alt="加入元瑞 山东省元瑞食品有限公司" title="加入元瑞 山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner4.jpg" alt="加入元瑞 山东省元瑞食品有限公司" title="加入元瑞 山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/about-banner5.jpg" alt="加入元瑞 山东省元瑞食品有限公司" title="加入元瑞 山东省元瑞食品有限公司"></div>
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>

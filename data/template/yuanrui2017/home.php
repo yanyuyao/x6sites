@@ -8,12 +8,12 @@
 	<img src="<?=$config['site_templateurl'];?>/img/index-topborder.png" class="index-topborder">
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>

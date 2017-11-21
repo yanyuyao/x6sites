@@ -16,7 +16,7 @@
 			<a href="/index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a> 按应用用途划分
 		</div>
 		<div class="family-banner">
-			<img src="<?=$category['thumb']?>">
+			<img src="<?=$category['thumb']?>" alt="元瑞家族 山东省元瑞食品有限公司" title="元瑞家族 山东省元瑞食品有限公司">
 		</div>
 	</div>
 <!--banner end-->

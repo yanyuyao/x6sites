@@ -23,14 +23,14 @@
 		<div class="container">
 			<div class="item_ flw" id="news-list">
 				<div class="news-listbt">
-					<div class="news-listbt-search news-listbt-search1">
+					<!--<div class="news-listbt-search news-listbt-search1">
                         <img src="<?=$config['site_templateurl'];?>/img/news-search.png"> 搜索
 					</div>
                     <div class="news-listbt-search news-listbt-search2">
                     	<input type="button" value="搜索" class="news-listbt-search-inputbutton">
                         <input type="text" placeholder="输入搜索内容" class="news-listbt-search-inputtext">
-					</div>
-					元瑞动态
+					</div>-->
+					元瑞招聘
 				</div>
 				
 				<div class="row">
@@ -49,9 +49,7 @@
 													<?=$item['title']?>
 												</div>
 											</a>
-											<div class="news-list-description">
-												<?=$item['description']?>
-											</div>
+											<?=$item['description']?>
 										</div>
 									</div>
 									</a>
@@ -64,9 +62,6 @@
 			</div>
 		</div>
 	</div>
-	<!--<div class="news-more">
-		<input type="button" value="加载更多">
-	</div>-->
 <!--list end-->
 
 

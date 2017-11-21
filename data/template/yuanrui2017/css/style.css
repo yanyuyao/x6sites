@@ -27,6 +27,52 @@
 ------------------- END TABLE OF CONTENT ------------------*/
 /* I. FRAMEWORK
 ***********************/
+
+
+@font-face {
+    font-family:'时尚中黑简体';
+    src: url('../fonts/时尚中黑简体.eot'),
+		 url('../fonts/时尚中黑简体.ttf'),
+		 url('../fonts/时尚中黑简体.svg'),
+		 url('../fonts/时尚中黑简体.woff'),
+		 url('../fonts/时尚中黑简体.woff2');
+}
+@font-face {
+    font-family:'经典隶变简';
+    src: url('../fonts/JDJLIBIAN.eot'),
+		 url('../fonts/JDJLIBIAN.ttf'),
+		 url('../fonts/JDJLIBIAN.svg'),
+		 url('../fonts/JDJLIBIAN.woff'),
+		 url('../fonts/JDJLIBIAN.woff2');
+}
+@font-face {
+    font-family:'经典特宋简';
+    src: url('../fonts/JDJSTE.eot'),
+		 url('../fonts/JDJSTE.ttf'),
+		 url('../fonts/JDJSTE.svg'),
+		 url('../fonts/JDJSTE.woff'),
+		 url('../fonts/JDJSTE.woff2');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media print {
   *,
   *:before,
@@ -64,6 +110,7 @@
   }
   img {
     max-width: 100% !important;
+	width:100%;
   }
   p,
   h2,
@@ -3916,6 +3963,7 @@ img {
   border: 0;
   height: auto;
   max-width: 100%;
+  width:100%;
   vertical-align: middle;
 }
 figure {
@@ -5582,7 +5630,7 @@ select {
 .top_section .top_box .top_list li {
   display: inline-block;
   color: #A87333;
-  font-family: Lato, sans-serif;
+  font-family: '时尚中黑简体';
   font-size: 12px;
 }
 .top_section .top_box .top_list li.spc {
@@ -6058,12 +6106,13 @@ select {
 .ht_footer .footer_ .footer_main .uselink li {
   height: 39px;
   list-style:none;
+  font-family:'经典隶变简';
 }
 .ht_footer .footer_ .footer_main .uselink li a {
-  font-family: Lato, sans-serif;
+  font-family:'经典隶变简';
   font-weight: 400;
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
 }
 .ht_footer .footer_ .footer_main .uselink li a:hover {
   color: #fff;

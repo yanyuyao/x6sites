@@ -19,7 +19,7 @@ body{
 }
 .footerk{
 	width:100%;
-	padding:0 5%;
+	padding:0 10%;
 }
 
 
@@ -102,12 +102,12 @@ body{
 .index-kitchen-bt{
 	position:absolute;
 	width:20%;
-	top:30px;
+	top:10%;
 	left:10%;
 }
 .index-kitchen-footicon{
 	position:absolute;
-	bottom:30px;
+	bottom:10%;
 	left:10%;
 	width:90%;
 }
@@ -153,13 +153,15 @@ body{
 }
 .index-join{
 	background-image:url(../img/index-join-bg.png);
-	background-size:1920px;
+	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
 }
 .index-join-text{
 	padding:0 10px;
 	line-height:30px;
+	font-family:'经典隶变简';
+	font-size:1.2em;
 }
 .index-join-bt{
 	width:30%;
@@ -173,6 +175,8 @@ body{
 }
 .index-join-more input{
 	width:180px;
+	font-family:'经典特宋简';
+	font-size:1em;
 	background-color:#EE8100;
 	line-height:40px;
 	border:none;
@@ -498,15 +502,15 @@ input.news-listbt-search-inputbutton{
 }
 .news-list-top{
 	width:100%;
-	padding:0 0 100px;
 }
 .news-list-top img{
 	width:100%;
+	height:190px;
 	border-bottom:5px solid #ee8100;
 }
 .news-list-bottom{
 	width:90%;
-	margin:-55px 5% 40px;
+	margin:10px 5% 40px;
 }
 .news-list-single{
 	margin-top:30px;
@@ -523,7 +527,17 @@ input.news-listbt-search-inputbutton{
 	font-size:1.3em;
 	color:#ee8100;
 	font-weight:bold;
-	padding:20px 0;
+	padding:10px 0 20px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.news-list-description{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
 }
 .news-more{
 	width:100%;
