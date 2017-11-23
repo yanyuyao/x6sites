@@ -522,6 +522,9 @@ input.news-listbt-search-inputbutton{
 .news-list-date{
 	font-size:0.8em;
 	color:#8E8274;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
 }
 .news-list-bottom-bt{
 	font-size:1.3em;

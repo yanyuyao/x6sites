@@ -18,6 +18,9 @@
 		<div class="family-list-bt family-single-info-bt">
 			<?=$detail['title']?>
 		</div>
+		<div class="family-banner">
+			<img src="<?=$detail['thumb']?>" class="family-single-info-banner" alt="<?=$detail['title']?> 山东省元瑞食品有限公司" title="<?=$detail['title']?> 山东省元瑞食品有限公司">
+		</div>
 		<div class="family-single-info-text">
 			<?=$detail['content']?>
 		</div>
