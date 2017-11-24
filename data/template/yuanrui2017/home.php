@@ -9,11 +9,10 @@
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
-			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner2.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner3.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner4.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner5.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>
@@ -23,7 +22,7 @@
 	
 <!--yuanrui-family start-->
 	<div class="index-family">
-		<a href="/index.php?/category/product"><img src="<?=$config['site_templateurl'];?>/img/index-family.png"></a>
+		<a href="/index.php?/category/product"><img src="<?=$config['site_templateurl'];?>/img/index-family.png" alt="元瑞家族" title="元瑞家族"></a>
 	</div>
 	<div class="index-family-listk">
 		<div class="index-family-single index-family-single1">
@@ -69,14 +68,14 @@
 
 <!--kitchen start-->
 	<div class="index-kitchen">
-		<img src="<?=$config['site_templateurl'];?>/img/index-kitchen.png">
+		<img src="<?=$config['site_templateurl'];?>/img/index-kitchen.png" alt="美食厨房" title="美食厨房">
 		<a href="/index.php?/category/diyufengwei"><img src="<?=$config['site_templateurl'];?>/img/index-kitchen-bt.png" class="index-kitchen-bt"></a>
 	</div>
 <!--kitchen end-->
 
 <!--career start-->
 	<div class="index-kitchen">
-		<img src="<?=$config['site_templateurl'];?>/img/index-career.png" class="index-career-img">
+		<img src="<?=$config['site_templateurl'];?>/img/index-career.png" class="index-career-img" alt="元瑞事业" title="元瑞事业">
 		<a href="/index.php?/category/aboutus"><img src="<?=$config['site_templateurl'];?>/img/index-career-bt.png" class="index-kitchen-bt"></a>
 		<div class="index-kitchen-footicon">
 			<h3>研发</h3>
