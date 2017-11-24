@@ -494,6 +494,7 @@ input.news-listbt-search-inputbutton{
 	cursor:pointer;
 }
 .news-list{
+	height:414px;
 	border:2px solid #C7C8C8;
 	border-radius:20px;
 	-webkit-border-radius:20px;
