@@ -153,30 +153,32 @@ body{
 }
 .index-join{
 	background-image:url(../img/index-join-bg.png);
-	background-size:cover;
+	background-size:1920px 1080px;
 	background-position:center;
 	background-repeat:no-repeat;
+	max-height:1080px;
+	overflow:hidden;
 }
 .index-join-text{
 	padding:0 10px;
-	line-height:30px;
+	line-height:1.5em;
 	font-family:'经典隶变简';
-	font-size:1.2em;
+	font-size:2em;
 }
 .index-join-bt{
 	width:30%;
-	margin:100px 0;
+	margin:110px 0 150px;
 	margin-left:-9%;
 }
 .index-join-more{
 	width:100%;
 	text-align:center;
-	margin:50px 0 30px;
+	margin:140px 0 300px;
 }
 .index-join-more input{
 	width:180px;
 	font-family:'经典特宋简';
-	font-size:1em;
+	font-size:0.8em;
 	background-color:#EE8100;
 	line-height:40px;
 	border:none;
@@ -636,7 +638,10 @@ input.news-listbt-search-inputbutton{
 		padding:60px 0 40px;
     }
 	.index-join-bt{
-		margin:80px 0;
+		margin:150px 0 130px;
+	}
+	.index-join-more{
+		margin:120px 0 210px;
 	}
 	.index-family-single{
 		font-size:2.3em;
@@ -646,9 +651,6 @@ input.news-listbt-search-inputbutton{
 	.index-family{
 		padding:60px 0 30px;
     }
-	.index-join-bt{
-		margin:60px 0;
-	}
 	.index-family-single{
 		font-size:2em;
 	}
@@ -666,8 +668,14 @@ input.news-listbt-search-inputbutton{
 	.index-family-single{
 		font-size:1.3em;
 	}
-	.index-kitchen-bt{
-		width:100px;
+	.index-join-bt{
+		margin:70px 0 60px;
+	}
+	.index-join-text{
+		font-size:1.3em;
+	}
+	.index-join-more{
+		margin:80px 0 100px;
 	}
 	.index-join-more input{
 		width:150px;

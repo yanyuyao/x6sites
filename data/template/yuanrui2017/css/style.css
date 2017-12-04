@@ -5983,7 +5983,7 @@ select {
   color: #5fcde3;
 }
 .ht_footer .footer_ {
-  min-height: 589px;
+  min-height: 400px;
   background: url(../images/bg_footer.png) repeat-y top center;
   background-size: 100%;
   position: relative;
@@ -6022,7 +6022,6 @@ select {
   border: 1px solid #ffffff;
 }
 .ht_footer .footer_ .footer_main {
-  margin-top: 29px;
   color: #ffffff;
   position: relative;
 }
@@ -6094,8 +6093,8 @@ select {
   color: #f26f29;
 }
 .ht_footer .footer_ .footer_main h3 {
-  font-family: Lato, sans-serif;
-  font-weight: 300;
+  font-family:'微软雅黑';
+  font-weight: bold;
   font-size: 24px;
   color: #ffffff;
   margin-top: 64px;
@@ -6104,7 +6103,7 @@ select {
   margin-bottom: 50px;
 }
 .ht_footer .footer_ .footer_main .uselink li {
-  height: 39px;
+  height: 30px;
   list-style:none;
   font-family:'经典隶变简';
 }

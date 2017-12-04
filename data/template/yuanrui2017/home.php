@@ -78,7 +78,7 @@
 		<img src="<?=$config['site_templateurl'];?>/img/index-career.png" class="index-career-img" alt="元瑞事业" title="元瑞事业">
 		<a href="/index.php?/category/aboutus"><img src="<?=$config['site_templateurl'];?>/img/index-career-bt.png" class="index-kitchen-bt"></a>
 		<div class="index-kitchen-footicon">
-			<h3>研发</h3>
+			<!--<h3>研发</h3>-->
 			<div class="index-kitchen-footicon-single index-kitchen-footicon-single1"></div>
 			<div class="index-kitchen-footicon-single index-kitchen-footicon-single2"></div>
 			<div class="index-kitchen-footicon-single index-kitchen-footicon-single3"></div>
@@ -94,7 +94,7 @@
 			<div class="row index-join-text">
 				<a href="/index.php?/category/aboutus"><img src="<?=$config['site_templateurl'];?>/img/index-join-bt.png" class="index-join-bt"></a><br>
 				元瑞食品是一家专业的复合调味料、中西式酱料生产商，致力于为餐饮企业及食品企业提供一体化便捷的食品解决方案，为家庭带来美味的食物。并且相信通过我们的不断努力，能够引领行业的进化，为饮食生态的改变带来积极的影响。<br>
-				“用心做调味，良心做企业”使我们的核心价值观，我们坚持选用优质的原料创造优质的调味品，进而创造美味的食物。我们相信通过元瑞人的共同努力，不忘初心，秉持团结、乐观、自信、真诚的态度，最重，我们定能实现远大的目标！
+				“用心做调味，良心做企业”是我们的核心价值观，我们坚持选用优质的原料创造优质的调味品，进而创造美味的食物。我们相信通过元瑞人的共同努力，不忘初心，秉持团结、乐观、自信、真诚的态度，最终，我们定能实现远大的目标！
 				<div class="index-join-more">
 					<a href="/index.php?/category/aboutus"><input type="button" value="了解更多 >>"></a>
 				</div>
@@ -106,3 +106,7 @@
 <?php $this->load->view($config['site_template'].'/footer');?>
 </div>
 <?php $this->load->view($config['site_template'].'/foot');?>
+
+<script>
+	if()
+</script>
