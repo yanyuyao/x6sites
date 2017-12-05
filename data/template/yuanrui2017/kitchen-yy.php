@@ -45,7 +45,7 @@
 										</div>
 									<?php endforeach; ?>
 										<div class="kitchen-yy-more">
-											<a href="kitchen-singlelist.html"><input type="button" value="载入更多......"></a>
+											<a href="<?=$item['url']?>"><input type="button" value="载入更多......"></a>
 										</div>
 									
 								</div>

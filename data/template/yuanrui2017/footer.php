@@ -20,9 +20,9 @@
 							<h3>元瑞家族</h3>
 							<ul class="uselink flw">
 								<li><a href="/index.php?/category/kaopai">烤排系列酱</a></li>
-								<li><a href="/index.php?/category/kaopai">烤肉系列酱</a></li>
+								<li><a href="/index.php?/category/kaorou">烤肉系列酱</a></li>
 								<li><a href="/index.php?/category/kaoyu">烤鱼系列酱</a></li>
-								<li><a href="/index.php?/category/product">炸鸡系列酱</a></li>
+								<li><a href="/index.php?/category/zhaji">炸鸡系列酱</a></li>
 								<li><a href="/index.php?/category/banfanjiang">拌饭系列酱</a></li>
 								<li><a href="/index.php?/category/zhongshikuaican">传统中餐调料</a></li>
 								<li><a href="/index.php?/category/tesefengwei">特色风味酱</a></li>
@@ -35,7 +35,7 @@
 							<ul class="uselink flw">
 								<li><a href="/index.php?/category/xishifengwei">西式经典</a></li>
 								<li><a href="/index.php?/category/zhongshifeiwei">传统美食</a></li>
-								<li><a href="/index.php?/category/diyufengwei">家的味道</a></li>
+								<li><a href="/index.php?/category/zhongshifeiwei">家的味道</a></li>
 								<li><a href="/index.php?/category/diyufengwei">创意菜品</a></li>
 							</ul>
 						</div>
@@ -44,7 +44,7 @@
 						<div class="ft_col">
 							<h3>联系我们</h3>
 							<ul class="uselink flw">
-								<li><a>地址：山东省德州市齐河县宣章屯镇政府驻地</a></li>
+								<li class="relative"><a>地址：<span class="footer-li-address">山东省德州市齐河县宣章屯镇政府驻地</span></a></li>
 								<li><a>电话：0534-8121811</a></li>
 								<li><a>传真：0534-8121567</a></li>
 							</ul>

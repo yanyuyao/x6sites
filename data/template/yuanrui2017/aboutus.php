@@ -26,8 +26,8 @@
 				<div class="about-about-bt1"><?=$category['name']?></div>
 				<?=$category['content']?>
 				<div class="about-about-button">
-					<a href="#"><input type="button" value="社会招聘"></a>
-					<a href="#"><input type="button" value="校园招聘"></a>
+					<a href="/index.php?/category/shehuizhaopin"><input type="button" value="社会招聘"></a>
+					<a href="/index.php?/category/xiaoyuanzhaopin"><input type="button" value="校园招聘"></a>
 				</div>
 			</div>
 		</div>

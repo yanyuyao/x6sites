@@ -27,14 +27,14 @@
 	<div class="index-family-listk">
 		<div class="index-family-single index-family-single1">
 			<a href="/index.php?/category/rihanfengwei"><div class="index-family-single-k">
-				<div class="index-family-single-bt">
+				<div class="index-family-single-bt textshadownone">
 					<span>日</span><span>韩</span><span>风</span><span>味</span>
 				</div>
 			</div></a>
 		</div>
 		<div class="index-family-single index-family-single2">
 			<a href="/index.php?/category/xishifengwei"><div class="index-family-single-k">
-				<div class="index-family-single-bt">
+				<div class="index-family-single-bt textshadownone">
 					<span>西</span><span>式</span><span>风</span><span>味</span>
 				</div>
 			</div></a>
@@ -48,14 +48,14 @@
 		</div>
 		<div class="index-family-single index-family-single4">
 			<a href="/index.php?/category/dongnanya"><div class="index-family-single-k">
-				<div class="index-family-single-bt">
+				<div class="index-family-single-bt textshadownone">
 					<span>东</span><span>南</span><span>亚</span><span>风</span><span>味</span>
 				</div>
 			</div></a>
 		</div>
 		<div class="index-family-single index-family-single5">
 			<a href="/index.php?/category/tesefengdiyufengwei"><div class="index-family-single-k">
-				<div class="index-family-single-bt">
+				<div class="index-family-single-bt textshadownone">
 					<span>特</span><span>色</span><span>风</span><span>味</span>
 				</div>
 			</div></a>

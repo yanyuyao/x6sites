@@ -29,9 +29,11 @@
 						<?php foreach ($tmpData as $item): ?>
 							
 								<div class="col-md-6 col-lg-6">
-									<div class="family-list-bt">
-										<?=$item['name']?>
-									</div>
+									<a href="<?=$item['url']?>">
+										<div class="family-list-bt">
+											<?=$item['name']?>
+										</div>
+									</a>
 									<div class="classes_it">
 										<div class="box_img">
 											<a href="<?=$item['url']?>"><img src="<?=$item['thumb']?>" alt="family-list"></a>

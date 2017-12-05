@@ -21,6 +21,15 @@ body{
 	width:100%;
 	padding:0 10%;
 }
+.relative{
+	position:relative;
+}
+.footer-li-address{
+	position:absolute;
+	left:3em;
+	top:0;
+}
+
 
 
 
@@ -260,15 +269,16 @@ body{
 .family-list-bt{
 	width:100%;
 	color:#ee8100;
-	font-size:3em;
+	font-size:2.5em;
 	font-weight:bold;
 	text-align:center;
-	line-height:70px;
+	line-height:60px;
 }
 .family-list-button{
 	width:100%;
 	text-align:right;
 	margin-bottom:30px;
+	margin-top:-15px;
 }
 .family-list-button input{
 	border:none;
@@ -288,9 +298,9 @@ body{
 /**     family-single     **/
 .family-single-list-bt{
 	width:100%;
-	font-size:2.2em;
+	font-size:2em;
 	color:#86736A;
-	margin:15px 0 50px;
+	margin:10px 0 50px;
 }
 
 
@@ -339,28 +349,29 @@ body{
 .kitchen-button{
 	width:100%;
 	text-align:right;
+	margin-top:-20px;
 }
 .kitchen-button input{
 	width:25%;
 	min-width:120px;
 	border:none;
 	padding:0;
-	line-height:40px;
+	line-height:35px;
 	border-radius:20px;
 	-webkit-border-radius:20px;
 	-moz-border-radius:20px;
 	color:#fff;
 	font-size:1.1em;
 	background-color:#ee8100;
-	margin:-10px 3% 30px;
+	margin:-30px 3% 30px;
 }
 .kitchen-list-bt{
 	width:98%;
-	font-size:2.2em;
+	font-size:2em;
 	color:#ee8100;
 	font-weight:bold;
 	margin-left:2%;
-	margin-top:30px;
+	margin-top:50px;
 }
 .kitchen-list{
 	margin-top:10px;
@@ -371,7 +382,7 @@ body{
 	float:left;
 }
 .kitchen-list2-bottom{
-	margin-top:5px;
+	margin-top:23px;
 	position:relative;
 	display:flex;
 	display: -webkit-flex;
@@ -381,11 +392,11 @@ body{
 .kitchen-list2-bottom input{
 	position:absolute;
 	width:80%;
-	line-height:35px;
+	line-height:40px;
 	left:10%;
 	top:50%;
 	margin-top:-20px;
-	height:35px;
+	height:40px;
 	color:#fff;
 	background-color:#D5BEA2;
 	border-radius:20px;
@@ -405,10 +416,10 @@ body{
 	text-align:right;
 }
 .kitchen-yy-more input{
-	width:20%;
+	width:200px;
 	min-width:200px;
-	line-height:35px;
-	height:35px;
+	line-height:40px;
+	height:40px;
 	color:#fff;
 	background-color:#D5BEA2;
 	border-radius:20px;
@@ -417,8 +428,8 @@ body{
 	border:none;
 	padding:0;
 	font-size:1.2em;
-	margin:10px 0;
-	margin-right:5%;
+	margin:20px 0 0;
+	margin-right:4%;
 }
 .kitchen-yy-listmargin{
 	margin-bottom:10px;
@@ -447,8 +458,7 @@ body{
 .news-listbt{
 	width:100%;
 	padding:40px 0;
-	font-size:2.5em;
-	font-weight:bold;
+	font-size:2em;
 }
 .news-listbt-search{
 	line-height:40px;
@@ -469,8 +479,8 @@ body{
 	cursor:pointer;
 }
 .news-listbt-search2{
-	width:260px;
-	display:none;
+	width:230px;
+	display:block;
 }
 .news-listbt-search img{
 	width:33px;
@@ -485,7 +495,7 @@ input.news-listbt-search-inputtext{
 	border:none;
 }
 input.news-listbt-search-inputbutton{
-	width:70px;
+	width:30px;
 	background:none;
 	border:none;
 	color:#fff;
@@ -564,6 +574,10 @@ input.news-listbt-search-inputbutton{
 }
 
 
+
+.zhaopin-list{
+	height:500px;
+}
 
 
 /**     news-info     **/
@@ -680,17 +694,16 @@ input.news-listbt-search-inputbutton{
 	.index-join-more input{
 		width:150px;
 	}
-	.news-listbt-search2{
-		float:left;
-		width:100%;
-	}
-	input.news-listbt-search-inputtext{
-		width:175px;
-	}
 	.index-family-single-bt{
 		text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
 		-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
 		-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
 		
 	}
+}
+
+
+
+.textshadownone{
+	text-shadow:none;
 }

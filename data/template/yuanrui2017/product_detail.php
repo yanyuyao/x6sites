@@ -13,7 +13,7 @@
 <div class="flw">
 	<div class="container">
 		<div class="family-link-bt">
-			<a href="index.html">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a><a href="/index.php?/category/product"> 按应用用途划分 >></a><a href="family-single.html"> <?=$category['name']?> >></a> <?=$detail['title']?>
+			<a href="index.html">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a><a href="/index.php?/category/product"> 按应用用途划分 >></a><a href="<?=$detail['categoryurl']?>"> <?=$category['name']?> >></a> <?=$detail['title']?>
 		</div>
 		<div class="family-list-bt family-single-info-bt">
 			<?=$detail['title']?>

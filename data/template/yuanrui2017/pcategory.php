@@ -27,10 +27,12 @@
 			<div class="item_ flw">
 						<?php foreach ($list as $item): ?>
 								<div class="col-md-6 col-lg-6">
-									<a href="<?=$item['url']?>"><img src="<?=$item['thumb']?>" width="100%"></a>
-									<div class="family-single-list-bt">
-										<?=$item['title']?>
-									</div>
+									<a href="<?=$item['url']?>">
+										<img src="<?=$item['thumb']?>" width="100%">
+										<div class="family-single-list-bt">
+											<?=$item['title']?>
+										</div>
+									</a>
 								</div>
 						<?php endforeach; ?>
 				

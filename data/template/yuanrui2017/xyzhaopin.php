@@ -23,9 +23,9 @@
 		<div class="container">
 			<div class="item_ flw" id="news-list">
 				<div class="news-listbt">
-					<div class="news-listbt-search news-listbt-search1">
+					<!--<div class="news-listbt-search news-listbt-search1">
                         <img src="<?=$config['site_templateurl'];?>/img/news-search.png"> 搜索
-					</div>
+					</div>-->
                     <div class="news-listbt-search news-listbt-search2">
                     	<input type="button" value="搜索" class="news-listbt-search-inputbutton">
                         <input type="text" placeholder="输入搜索内容" class="news-listbt-search-inputtext">
@@ -37,24 +37,20 @@
 						<?php foreach ($list as $k=>$item): ?>
 								<?php if($k == 0){ echo "<div class='row'>";}?>
 								<div class="col-md-3 col-lg-3 news-list-single">
-									<a href="<?=$item['url']?>">
-									<div class="news-list">
+									<div class="news-list zhaopin-list">
 										<div class="news-list-top">
 											<img src="<?=$item['thumb']?>" class="news-list-top-img"><br>
 										</div>
 										<div class="news-list-bottom">
 											<div class="news-list-date"><?=$item['keywords']?></div>
-											<a href="<?=$item['url']?>">
 												<div class="news-list-bottom-bt">
 													<?=$item['title']?>
 												</div>
-											</a>
-											<div class="news-list-description">
+											<div>
 												<?=$item['content']?>
 											</div>
 										</div>
 									</div>
-									</a>
 								</div>
 						<?php endforeach; ?>
 					
