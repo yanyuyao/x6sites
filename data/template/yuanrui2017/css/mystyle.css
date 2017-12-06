@@ -95,10 +95,6 @@ body{
 	bottom:5%;
 	color:#B58D5C;
 	font-weight:bold;
-	text-shadow:#fff 3px 0 0,#fff 0 3px 0,#fff -3px 0 0,#fff 0 -3px 0;
-	-webkit-text-shadow:#fff 3px 0 0,#fff 0 3px 0,#fff -3px 0 0,#fff 0 -3px 0;
-	-moz-text-shadow:#fff 3px 0 0,#fff 0 3px 0,#fff -3px 0 0,#fff 0 -3px 0;
-	
 }
 
 .index-topborder{
@@ -694,16 +690,6 @@ input.news-listbt-search-inputbutton{
 	.index-join-more input{
 		width:150px;
 	}
-	.index-family-single-bt{
-		text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
-		-webkit-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
-		-moz-text-shadow:#fff 1px 0 0,#fff 0 1px 0,#fff -1px 0 0,#fff 0 -1px 0;
-		
-	}
 }
 
 
-
-.textshadownone{
-	text-shadow:none;
-}
