@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = '和禹网络科技';
-$lang['system_name'] = '和禹网络科技';
-$lang['system_adminname'] = 'HeYu Management Center';
-$lang['system_link'] = 'http://cfweb2015.com/';
+$lang['system_author'] = '山东省元瑞食品有限公司';
+$lang['system_name'] = '山东省元瑞食品有限公司';
+$lang['system_adminname'] = '山东省元瑞食品有限公司';
+$lang['system_link'] = 'http://yuanruifood.com/';
 $lang['system_version'] = '2.2(20130305)';
-$lang['system_copy'] = '© 2012 和禹网络科技.';
+$lang['system_copy'] = '© 2012 山东省元瑞食品有限公司.';
 
 /*base*/
 $lang['order'] = '顺序';

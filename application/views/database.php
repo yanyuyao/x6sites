@@ -5,7 +5,7 @@
 	<tr><td>
 	<a href="<?=site_aurl($tablefunc)?>" class="current"><?=lang('func_'.$tablefunc)?></a>
 	<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'download')): ?><a href="<?=site_aurl($tablefunc.'/download')?>"><?=lang('database_download')?></a><?php endif; ?>
-	<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'upgrade')): ?><a href="<?=site_aurl($tablefunc.'/upgrade')?>"><?=lang('database_upgrade')?></a><?php endif; ?>
+	<!--<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'upgrade')): ?><a href="<?=site_aurl($tablefunc.'/upgrade')?>"><?=lang('database_upgrade')?></a><?php endif; ?>-->
 	</td></tr>
 	</table>
 	<table cellSpacing=0 width="100%" class="content_list"><thead>
@@ -58,7 +58,7 @@
 	<tr><td>
 	<a href="<?=site_aurl($tablefunc)?>"><?=lang('func_'.$tablefunc)?></a>
 	<a href="<?=site_aurl($tablefunc.'/download')?>" class="current"><?=lang('database_download')?></a>
-	<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'upgrade')): ?><a href="<?=site_aurl($tablefunc.'/upgrade')?>"><?=lang('database_upgrade')?></a><?php endif; ?>
+	<!--<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'upgrade')): ?><a href="<?=site_aurl($tablefunc.'/upgrade')?>"><?=lang('database_upgrade')?></a><?php endif; ?>-->
 	</td></tr>
 	</table>
 	<table cellSpacing=0 width="100%" class="content_list"><thead>
@@ -110,7 +110,7 @@
 	<tr><td height="30" class="menu">
 	<a href="<?=site_aurl($tablefunc)?>"><?=lang('func_'.$tablefunc)?></a>
 	<?php if ($this->Purview_model->checkPurviewFunc($tablefunc,'download')): ?><a href="<?=site_aurl($tablefunc.'/download')?>"><?=lang('database_download')?></a><?php endif; ?>
-	<a href="<?=site_aurl($tablefunc.'/upgrade')?>" class="current"><?=lang('database_upgrade')?></a>
+	<!--<a href="<?=site_aurl($tablefunc.'/upgrade')?>" class="current"><?=lang('database_upgrade')?></a>-->
 	</td></tr>
 	</table>
 	</div>

@@ -3,9 +3,9 @@
 <table class="menu">
 <tr><td>
 <a href="<?=site_aurl('config')?>" <?php if($tpl=='base'):?> class="current"<?php endif;?>><?=lang('config_base')?></a>
-<a href="<?=site_aurl('config/mail')?>" <?php if($tpl=='mail'):?> class="current"<?php endif;?>><?=lang('config_mail')?></a>
-<a href="<?=site_aurl('config/lang')?>" <?php if($tpl=='lang'):?> class="current"<?php endif;?>><?=lang('config_lang')?></a>
-<a href="<?=site_aurl('config/attr')?>" <?php if($tpl=='attr'):?> class="current"<?php endif;?>><?=lang('config_attr')?></a>
+<!-- 邮箱配置 <a href="<?=site_aurl('config/mail')?>" <?php if($tpl=='mail'):?> class="current"<?php endif;?>><?=lang('config_mail')?></a>-->
+<!-- 语言设置 <a href="<?=site_aurl('config/lang')?>" <?php if($tpl=='lang'):?> class="current"<?php endif;?>><?=lang('config_lang')?></a>-->
+<!-- 附件配置 <a href="<?=site_aurl('config/attr')?>" <?php if($tpl=='attr'):?> class="current"<?php endif;?>><?=lang('config_attr')?></a>-->
 <a href="<?=site_aurl('config/add')?>" <?php if($tpl=='add'):?> class="current"<?php endif;?>><?=lang('config_add')?></a>
 </td></tr>
 </table>
