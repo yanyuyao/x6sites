@@ -13,6 +13,18 @@ class Category extends CI_Controller {
 	
 	public function index(){
 		$dir = $this->uri->segment(2);
+		$yyid = $this->uri->segment(3);
+		if($dir == 'chakanyingyongid' && $yyid){
+			//$aaa = $this->Data_model->getData(array('yingyongProductId'=>$catid),$thiscategory['model']);
+			$aaa = $this->Data_model->getData(array('yingyongProductId'=>$yyid),'id desc',0,1,'category');
+			//$this->Data_model->getData(array('isdisabled'=>0,'lang'=>$this->editlang,'model'=>$this->tablefunc)
+			if($aaa){
+				$aaa = $aaa[0];
+				$dir = $aaa['dir'];
+			}
+			
+			header("Location:http://www.yuanruifood.com/index.php?/category/".$dir);
+		}
 		$thiscategory = $this->Cache_model->loadCategoryByDir($dir);
 		if(!$thiscategory){show_404();}
 		if($thiscategory['model']=='page'||$thiscategory['model']=='guestbook'){
@@ -42,7 +54,7 @@ class Category extends CI_Controller {
 		$pageconfig['uri_segment'] = 3;
 		$pageconfig['langurl'] = $this->Cache_model->langurl;
 		$this->pagination->initialize($pageconfig);
-		$list = $this->Data_model->getData($datawhere,'listorder,puttime desc',$pageconfig['per_page'],($currentpage-1)*$pageconfig['per_page'],$thiscategory['model']);
+		$list = $this->Data_model->getData($datawhere,'listorder ,puttime desc',$pageconfig['per_page'],($currentpage-1)*$pageconfig['per_page'],$thiscategory['model']);
 		$config = $this->Cache_model->loadConfig();
 		$config['seo_title'] = $thiscategory['title']==''?$thiscategory['name']:$thiscategory['title'];
 		$config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];

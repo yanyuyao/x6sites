@@ -65,7 +65,9 @@ class Product extends CI_Controller {
 	public function add(){
 		$this->Purview_model->checkPurviewAjax($this->tablefunc,'add');
 		$post = $this->input->post(NULL,TRUE);
+		
 		if($post['action']==site_aurl($this->tablefunc)){
+			
 			$data = elements($this->fields,$post);
 			$data['price']=$data['price']?$data['price']:'0.00';
 			$time = time();
@@ -116,6 +118,7 @@ class Product extends CI_Controller {
 		}else{
 			$id = $this->uri->segment(4);
 			if($id>0&&$view = $this->Data_model->getSingle(array('id'=>$id))){
+				//var_dump($view);
 				$res = array(
 						'tpl'=>'view',
 						'tablefunc'=>$this->tablefunc,

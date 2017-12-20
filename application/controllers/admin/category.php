@@ -2,7 +2,7 @@
 
 class Category extends CI_Controller {
 	var $tablefunc = 'category';
-	var $fields = array('parent','name','title','isexternal','externalurl','target','dir','keywords','description','content','model','thumb','color','tpllist','tpldetail','pagesize','isnavigation','isdisabled','listorder');
+	var $fields = array('parent','name','title','isexternal','externalurl','target','dir','keywords','description','content','model','thumb','color','tpllist','tpldetail','pagesize','isnavigation','isdisabled','listorder','yingyongProductId');
 	var $funcarr = array('add','order');
 	var $editlang,$modelarr,$langurl;
 	function __construct(){
