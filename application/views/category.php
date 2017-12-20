@@ -92,6 +92,13 @@
 		<td><input type="text" name="tpldetail" id="tpldetail" class="input-text" value="<?=isset($view['tpldetail'])?$view['tpldetail']:'';?>"></td>
 		<td><?=lang('order')?></td>
 		<td colspan="2"><input type="text" name="listorder" id="listorder" value="<?php if(isset($view['listorder'])){echo $view['listorder'];}else{echo '99';} ?>" class="input-text" ></td>
+
+	</tr>
+	<tr>
+		<td>所属应用产品ID</td>
+		<td colspan=6>
+			<input type="text" name="yingyongProductId" id="yingyongProductId" value="<?php if(isset($view['yingyongProductId'])){echo $view['yingyongProductId'];}else{echo '';} ?>" class="input-text">
+		</td>
 	</tr>
 	</table>
 	</div>
