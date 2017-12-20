@@ -9,23 +9,19 @@
 	</div>	
 <!--swiper end-->
 
-<!--banner start-->
 <div class="flw">
-	<div class="container">
+	<div class="container margin-bottom50">
 		<div class="family-link-bt">
-			<a href="index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a><a href="/index.php?/category/product"> 按应用用途划分 >></a><a href="<?=$detail['categoryurl']?>"> <?=$category['name']?> >></a> <?=$detail['title']?>
+			<a href="/index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a><a href="<?=$detail['categoryurl']?>"> <?=$category['name']?> >></a> <?=$detail['title']?>
+		</div>
+		<div class="family-banner">
+			<img src="<?=$detail['thumb']?>" class="family-single-info-banner">
 		</div>
 		<div class="family-list-bt family-single-info-bt">
 			<?=$detail['title']?>
 		</div>
-		<div class="family-banner">
-			<img src="<?=$detail['thumb']?>" class="family-single-info-banner" alt="<?=$detail['title']?> 山东省元瑞食品有限公司" title="<?=$detail['title']?> 山东省元瑞食品有限公司">
-		</div>
 		<div class="family-single-info-text">
 			<?=$detail['content']?>
-		</div>
-		<div class="family-single-info-button">
-			<a href="/index.php?/category/chakanyingyongid/<?=$detail['id']?>"><input type="button" value="查看应用方式......"></a>
 		</div>
 	</div>
 <!--banner end-->

@@ -8,11 +8,18 @@
 	<img src="<?=$config['site_templateurl'];?>/img/index-topborder.png" class="index-topborder">
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
+<?php $tmpData = x6cms_slide(5);?>
+<?php foreach($tmpData as $item):?>
+<div class="swiper-slide"><a href=<?=$item['url']?>><img src="<?=$item['thumb']?>" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></a></div>
+<?php endforeach;?>
+<?php unset($tmpData,$item);?>
+			<!--
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner1.png" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner2.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner3.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner4.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
 			<div class="swiper-slide"><img src="<?=$config['site_templateurl'];?>/img/index-banner5.jpg" alt="山东省元瑞食品有限公司" title="山东省元瑞食品有限公司"></div>
+			->
 		</div>
 		<!-- Add Pagination -->
 		<div class="swiper-pagination"></div>

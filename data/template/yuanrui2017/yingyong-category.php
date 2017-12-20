@@ -1,5 +1,7 @@
 <?php $this->load->view($config['site_template'].'/head');?>
+<?php 
 
+?>
 <div class="hpage hpage_2 flw">
 <?php $this->load->view($config['site_template'].'/header');?>
 <main id="main" class="page_content">	
@@ -13,33 +15,29 @@
 <div class="flw">
 	<div class="container">
 		<div class="family-link-bt">
-			<a href="index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a><a href="/index.php?/category/product"> 按应用用途划分 >></a> <?=$category['name']?>
-		</div>
-		<div class="family-banner">
-			<?=$category['content']?>
+			<a href="/index.php">元瑞首页 >></a><a href="/index.php?/category/product"> 元瑞家族 >></a> <?=$category['name']?>
 		</div>
 	</div>
 <!--banner end-->
-
 <!--list start-->
 	<div class="classes_enroll flw">
 		<div class="container">
 			<div class="item_ flw">
-						<?php foreach ($list as $item): ?>
-								<div class="col-md-6 col-lg-6">
-									<a href="<?=$item['url']?>">
-										<img src="<?=$item['thumb']?>" width="100%">
-										<div class="family-single-list-bt">
-											<?=$item['title']?>
-										</div>
-									</a>
-								</div>
-						<?php endforeach; ?>
+				<?php foreach ($list as $item): ?>
+					<div class="col-md-3 col-lg-3 kitchen-list">
+						<a href="<?=$item['url']?>">
+							<img src="<?=$item['thumb']?>" width="100%">
+							<div class="kitchen-singlelist-bt"><?=$item['title']?></div>
+						</a>
+					</div>
+				<?php endforeach; ?>
+					
 				
 			</div>
 		</div>
 	</div>
 <!--list end-->
+
 
 </main>
 <?php $this->load->view($config['site_template'].'/footer');?>
